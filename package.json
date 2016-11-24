@@ -1,0 +1,31 @@
+{
+  "name": "html-snippets",
+  "version": "1.0.0",
+  "description": "Emmet HTML snippets",
+  "main": "snippets.json",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmetio/html-snippets.git"
+  },
+  "keywords": [
+    "emmet",
+    "html",
+    "snippets"
+  ],
+  "author": "Sergey Chikuyonok <serge.che@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emmetio/html-snippets/issues"
+  },
+  "homepage": "https://github.com/emmetio/html-snippets#readme",
+  "devDependencies": {
+    "@emmetio/abbreviation": "^0.4.0",
+    "mocha": "^3.1.2"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
