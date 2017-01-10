@@ -1,12 +1,12 @@
 {
-  "name": "snippets",
-  "version": "0.0.1",
+  "name": "@emmetio/snippets",
+  "version": "0.1.0",
   "description": "Emmet snippets",
   "main": "dist/snippets.cjs.js",
   "jsnext:main": "dist/snippets.es.js",
   "scripts": {
     "test": "mocha",
-	"build": "npm run build:cjs && npm run build:es",
+    "build": "npm run build:cjs && npm run build:es",
     "build:cjs": "rollup -c -o dist/snippets.cjs.js -f cjs ./index.js",
     "build:es": "rollup -c -o dist/snippets.es.js -f es ./index.js",
     "prepublish": "npm run test && npm run build"
