@@ -3,14 +3,14 @@
 	"a:link": "a[href='http://${0}']",
 	"a:mail": "a[href='mailto:${0}']",
 	"abbr": "abbr[title]",
-	"acr|acronym": "acronym[title]>",
+	"acr|acronym": "acronym[title]",
 	"base": "base[href]/",
 	"basefont": "basefont/",
 	"br": "br/",
 	"frame": "frame/",
 	"hr": "hr/",
 	"bdo": "bdo[dir]",
-	"bdo:r": "bdo[dir=rtl]>",
+	"bdo:r": "bdo[dir=rtl]",
 	"bdo:l": "bdo[dir=ltr]",
 	"col": "col/",
 	"link": "link[rel=stylesheet href]/",
@@ -140,12 +140,12 @@
 	"ri:a|ri:art": "pic>src:m+img",
 	"ri:t|ri:type": "pic>src:t+img",
 
-    "!!!":    "{<!DOCTYPE html>\n}",
-	"!!!4t":  "{<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n}",
-	"!!!4s":  "{<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n}",
-	"!!!xt":  "{<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n}",
-	"!!!xs":  "{<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n}",
-	"!!!xxs": "{<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">\n}",
+    "!!!":    "{<!DOCTYPE html>}",
+	"!!!4t":  "{<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">}",
+	"!!!4s":  "{<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">}",
+	"!!!xt":  "{<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">}",
+	"!!!xs":  "{<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">}",
+	"!!!xxs": "{<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">}",
 
     "!|html:5": "!!!+doc[lang=${lang}]",
 	"html:4t":  "!!!4t+doc4[lang=${lang}]",
@@ -154,7 +154,7 @@
 	"html:xs":  "!!!xs+doc4[xmlns=http://www.w3.org/1999/xhtml xml:lang=${lang}]",
 	"html:xxs": "!!!xxs+doc4[xmlns=http://www.w3.org/1999/xhtml xml:lang=${lang}]",
 
-	"c": "{<!-- |${child} -->}",
-	"cc:ie": "{<!--[if IE]>\n\t${child}${0}\n<![endif]-->}",
-	"cc:noie": "{<!--[if !IE]><!-->\n\t${child}${0}\n<!--<![endif]-->}"
+	"c": "{<!-- ${0} -->}",
+	"cc:ie": "{<!--[if IE]>${0}<![endif]-->}",
+	"cc:noie": "{<!--[if !IE]><!-->${0}<!--<![endif]-->}"
 }

@@ -1,7 +1,7 @@
 'use strict';
 
 const assert = require('assert');
-const snippets = require('../');
+const html = require('../html.json');
 const parse = require('@emmetio/abbreviation');
 
 const check = abbr => {
@@ -14,10 +14,10 @@ const check = abbr => {
 }
 
 describe('Snippets', () => {
-    it('check valid', () => {
+    it('html', () => {
         // simple check that every abbreviation can be expanded
-        Object.keys(snippets).forEach(name => {
-            assert.equal(check(snippets[name]), '', name);
+        Object.keys(html).forEach(name => {
+            assert.equal(check(html[name]), '', name);
         });
     });
 });
