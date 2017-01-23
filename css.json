@@ -23,7 +23,7 @@
 	"bdbc": "border-bottom-color:#${1:000}",
 	"bdbi": "border-bottom-image:url(${0})",
 	"bdbk": "border-break:close",
-	"bdbli": "border-bottom-left-image:url(${0})continue",
+	"bdbli": "border-bottom-left-image:url(${0})|continue",
 	"bdblrs": "border-bottom-left-radius",
 	"bdbri": "border-bottom-right-image:url(${0})|continue",
 	"bdbrrs": "border-bottom-right-radius",
