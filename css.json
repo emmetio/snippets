@@ -118,6 +118,7 @@
 	"h": "height",
 	"jc": "justify-content:flex-start|flex-end|center|space-between|space-around",
 	"l": "left",
+	"lg": "background-image:linear-gradient(${1})",
 	"lh": "line-height",
 	"lis": "list-style",
 	"lisi": "list-style-image",
