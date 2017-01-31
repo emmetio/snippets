@@ -1,6 +1,6 @@
 {
   "name": "@emmetio/snippets",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Emmet snippets",
   "main": "dist/snippets.cjs.js",
   "module": "dist/snippets.es.js",
