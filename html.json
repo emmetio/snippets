@@ -138,8 +138,8 @@
 	"ri:t|ri:type": "pic>src:t+img",
 
     "!!!": "{<!DOCTYPE html>}",
-    "doc": "html>(head>meta[charset=${charset}]+meta:vp+meta:edge+title{${1:Document}})+body",
-    "!|html:5": "!!!+doc[lang=${lang}]",
+    "doc": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+meta:edge+title{${1:Document}})+body",
+    "!|html:5": "!!!+doc",
 
 	"c": "{<!-- ${0} -->}",
 	"cc:ie": "{<!--[if IE]>${0}<![endif]-->}",
