@@ -1,2 +1,3 @@
-# html-snippets
-Emmet HTML snippets
+# Emmet snippets
+
+Snippets for Emmet 2 (WIP)
