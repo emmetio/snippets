@@ -72,7 +72,7 @@
 	"bgr": "background-repeat:no-repeat|repeat-x|repeat-y|space|round",
 	"bgsz": "background-size:contain|cover",
 	"bxsh": "box-shadow:${1:inset }${2:hoff} ${3:voff} ${4:blur} ${5:color}|none",
-	"bxz": "box-sizing:border-box|content-box|border-box",
+	"bxsz": "box-sizing:border-box|content-box|border-box",
 	"c": "color:#${1:000}",
 	"cl": "clear:both|left|right|none",
 	"cm": "/* ${0} */",
