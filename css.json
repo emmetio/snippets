@@ -107,7 +107,7 @@
 	"fv": "font-variant:normal|small-caps",
 	"fw": "font-weight:normal|bold|bolder|lighter",
 	"fx": "flex",
-	"fxb": "flex-basis",
+	"fxb": "flex-basis:fill|max-content|min-content|fit-content|content",
 	"fxd": "flex-direction:row|row-reverse|column|column-reverse",
 	"fxf": "flex-flow",
 	"fxg": "flex-grow",
