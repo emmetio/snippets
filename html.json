@@ -60,7 +60,7 @@
 	"input": "input[type=${1:text}]/",
 	"inp": "input[name=${1} id=${1}]",
 	"input:h|input:hidden": "input[type=hidden name]",
-	"input:t|input:text": "inp",
+	"input:t|input:text": "inp[type=text]",
 	"input:search": "inp[type=search]",
 	"input:email": "inp[type=email]",
 	"input:url": "inp[type=url]",
