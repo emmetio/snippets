@@ -140,7 +140,7 @@
 	"ri:a|ri:art": "pic>src:m+img",
 	"ri:t|ri:type": "pic>src:t+img",
 
-	"!!!": "{<!DOCTYPE html>}",
+	"!!!": "{<!doctype html>}",
 	"doc": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}})+body",
 	"!|html:5": "!!!+doc",
 
