@@ -1,3 +1,3 @@
-# Emmet snippets
+# Deprecated
 
-Snippets for Emmet 2 (WIP)
+Snippets are moved to Emmet monorepo: https://github.com/emmetio/emmet
